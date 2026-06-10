@@ -5,9 +5,11 @@ function Navbar() {
     <nav>
       <h2>Student Management System</h2>
 
-      <Link to="/">Dashboard</Link>
-      <Link to="/add">Add Student</Link>
-      <Link to="/students">Student List</Link>
+      <nav className="navbar">
+  <Link to="/" className="nav-btn">🏠 Dashboard</Link>
+  <Link to="/add" className="nav-btn">➕ Add Student</Link>
+  <Link to="/students" className="nav-btn">📋 Student List</Link>
+</nav>
     </nav>
   );
 }

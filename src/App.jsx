@@ -4,6 +4,7 @@ import Dashboard from "./components/Dashboard";
 import AddStudent from "./components/AddStudent";
 import StudentList from "./components/StudentList";
 import EditStudent from "./components/EditStudent";
+import "./App.css";
 
 function App() {
   return (
